@@ -1,0 +1,29 @@
+{
+  "reservas": [
+    {
+      "name": "Anania Augusto",
+      "numero": "944996909",
+      "email": "ananiasjaimeaugusto@gmail.com",
+      "marca": "Toyota",
+      "tipo": "Pessoal",
+      "tipolavagem": "Rápida",
+      "id": 1
+    },
+    {
+      "name": "AJA SilaSon",
+      "numero": "944996909",
+      "email": "ajasilason@gmail.com",
+      "marca": "Audi",
+      "tipo": "Pessoal",
+      "tipolavagem": "Aprofundada",
+      "id": 2
+    }
+  ],
+  "admin": [
+    {
+      "nome": "leveoteucarrohoje",
+      "pass": "visite-nos",
+      "id": 1
+    }
+  ]
+}

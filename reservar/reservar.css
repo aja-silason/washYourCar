@@ -1,0 +1,44 @@
+form{
+    margin-top: 1em;
+    margin-left: -10px !important;
+    display: flex;
+}
+form div{
+    margin-right: 1em;
+}
+h4{
+    color: #fff;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+input{
+    width: 400px;
+    padding: 0 1em;
+}
+select{
+    width: 200px;
+    padding-left: 1em;
+    height: 40px;
+    font-size: 12pt;
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+    color: rgb(116, 114, 114);
+    cursor: pointer;
+}
+span{
+    color: red;
+}
+button{
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+button a{
+    border-radius: 5px;
+}
+.esp{
+    margin-left: -34%;
+    margin-top: 26%;
+}

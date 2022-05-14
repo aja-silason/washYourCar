@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contetorVD{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contetorVD video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+}
+
+.contetorVD .conteudoVD{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}

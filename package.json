@@ -1,0 +1,20 @@
+{
+    "name": "Wash your car",
+    "version": "1.0.0",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "FreeMyMind I Build Ideia",
+    "contributors": [],
+    "dependencies": {
+        "json-server": "^0.17.0"
+    },
+    "scripts": {
+        "start": "",
+        "backend": "json-server --watch db.json --port 5000"
+    }
+}

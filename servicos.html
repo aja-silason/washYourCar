@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>WashYourCar</title>
+    <link rel="stylesheet" href="./_css/index.css">
+    <link rel="icon" href="./_imagens//icons/logo.png"/>
+    <link rel="stylesheet" href="./_css/servicos.css">
+    <link rel="stylesheet" href="./_css/stylecss.css">
+    <script> src="javascript\form-login.js" </script>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+          <h2 class="logo"><a href="index.html" style="display: flex; justify-content:center; align-items:center;color: #fff; text-decoration: none;"><img src="./_imagens/icons/logo.png"> WashYourCar</a></h2>
+          <div class="toggle"></div>
+        </header>
+        <video src="./_video/3.mp4" muted loop autoplay controls=""></video>
+        <div class="overlay"></div>
+        <div class="text">
+          
+          </br>
+          <!--Servicos prestados pela empresa-->
+          <h2>Nossos serviços</i></h2> 
+          
+            <div class="cardsServicos">
+              <div class="cardLavagem">
+                <img src="./_imagens/icons/washcar.png">
+                <h4><a href="./servicos/lavagem.html">Lavagem</a></h4>
+                <p>Traga o seu veículo e venha conhecer os nossos serviços de lavagem.</p>
+              </div>
+              <div class="cardManutencao">
+                <img src="./_imagens/icons/manutencao.png">
+                <h4><a href="./servicos/manutencao.html">Manutenção</a></h4>
+                <p>Traga o seu veículo e venha conhecer os nossos serviços de manutenção.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <ul class="social">
+          <li><a href="#"><img src="./_imagens/_germano_icons/facebook.png"></a></li>
+          <li><a href="#"><img src="./_imagens/_germano_icons/twitter.png"></a></li>
+          <li><a href="#"><img src="./_imagens/_germano_icons/instagram.png"></a></li>
+        </ul>
+      </section>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="./servicos.html">SERVIÇOS PRESTADOS</a></li>
+          <li><a href="./reservar.html">RESERVAR</a></li>
+          <li><a href="./sobre.html">SOBRE</a></li>
+        </ul>
+
+        <script>
+             const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+        </script>
+      </div>
+</body>
+</html>

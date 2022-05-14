@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>WashYouCar</title>
+    <link rel="icon" href="./_imagens//icons/logo.png"/>
+    <link rel="stylesheet" href="./_css/index.css">
+    
+</head>
+<body>
+    <section class="showcase">
+        <header>
+          <h2 class="logo"><a href="index.html" style="display: flex; justify-content:center; align-items:center;color: #fff; text-decoration: none;"><img src="./_imagens/icons/logo.png"> WashYourCar</a></h2>
+
+          <div class="toggle"></div>
+        </header>
+       <video src="./_video/2.mp4" muted loop autoplay controls=""></video>
+        <div class="overlay"></div>
+        <div class="text">
+          
+          <h2>Wash Your Car</h2>
+          <br/> 
+          <h3>serviços de lavagem e manutênção de carros</h3>
+          
+          <p> 
+
+           </p><a href="./reservar/reservar.html">RESERVAR</a>
+          <a href="./servicos.html">NOSSOS SERVIÇOS</a>
+        </div>
+        <ul class="social">
+          <li><a href="#"><img src="./_imagens/_germano_icons/facebook.png"></a></li>
+          <li><a href="#"><img src="./_imagens/_germano_icons/twitter.png"></a></li>
+          <li><a href="#"><img src="./_imagens/_germano_icons/instagram.png"></a></li>
+        </ul>
+      </section>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#">SERVIÇOS PRESTADOS</a></li>
+          <li><a href="#">RESERVAR</a></li>
+          <li><a href="#">SOBRE</a></li>
+        </ul>
+
+        <script>
+             const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+        </script>
+      </div>
+</body>
+</html>

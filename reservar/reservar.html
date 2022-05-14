@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Wash Your Car</title>
+    <link rel="icon" href="../_imagens//icons/logo.png"/>
+    
+    <link rel="stylesheet" href="../_css/index.css">
+    <link rel="stylesheet" href="../_css/stylecss.css">
+    <link rel="stylesheet" href="./reservar.css">
+
+</head>
+<body>
+    <section class="showcase">
+        <header>
+          <h2 class="logo"><a href="../index.html" style="display: flex; justify-content:center; align-items:center;color: #fff; text-decoration: none;"><img src="../_imagens/icons/logo.png"> WashYourCar</a></h2>
+
+          <div class="toggle"></div>
+        </header>
+        <video src="../_video/3.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <br/>
+          <h2>Reserve com a Wash Your Car</h2> 
+
+          <script src="./reservar.js"></script>
+          
+          <form onsubmit="submitReserva()">
+            <div class="res">
+              <h4>Dados do proprietário</h4>
+              <p>Nome completo <span>*</span></p>
+              <input type="text" id="nome" name="nome" class="nome" placeholder="Nome do proprietário" required/>
+              <p>Número telefonico<span>*</span></p>
+              <input type="number" class="number" id="numero" name="numero"  placeholder="O seu número telefónico" required/>
+              <p>Email<span>*</span></p>
+              <input type="email" id="email" name="email"  class="nome" placeholder="O seu email" required/>
+            </div>
+            <div class="res">
+              <h4>Dados do veículo</h4>
+              <p>Marca<span>*</span></p>
+              <input type="text" id="marca" name="marca  class="marca" placeholder="A marca do seu carro" required/>
+              <p>Cor<span>*</span></p>
+              <input type="text" id="cor" name="cor  class="cor" placeholder="A cor do seu carro" required/>
+              <p>Tipo de carro<span>*</span></p>
+              <select name="tipo" class="tipo" id="tipo" name="tipo"  id="tipolavagem">
+                <option name="tipo">Pessoal</option>
+                <option name="tipo">Colectivo</option>
+              </select>
+            </div>
+            <div class="res">
+              <h4>Tipo de Lavagem<span>*</span></h4>
+              <select name="tipolavagem" class="tipolavagem" id="tipolavagem">
+                <option name="tipolavagem">Rápida</option>
+                <option name="tipolavagem">Normal</option>
+                <option name="tipolavagem">Aprofundada</option>
+              </select>
+            </div>
+            <div class="esp">
+              <button type="submit"><a>Click e Reserve</a></button>
+            </div>
+
+        </form>
+        </div>
+        <ul class="social">
+          <li><a href="#"><img src="../_imagens/_germano_icons/facebook.png"></a></li>
+          <li><a href="#"><img src="../_imagens/_germano_icons/twitter.png"></a></li>
+          <li><a href="#"><img src="../_imagens/_germano_icons/instagram.png"></a></li>
+        </ul>
+      </section>
+      <div class="menu">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="#">SERVIÇOS</a></li>
+          <li><a href="#">PRODUTOS</a></li>
+          <li><a href="#">SOBRE</a></li>
+          <li><a href="#">CONTRACTOS</a></li>
+        </ul>
+
+        <script>
+             const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+        </script>
+      </div>
+</body>
+</html>

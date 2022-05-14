@@ -1,0 +1,33 @@
+.cadastrar{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.conteudoCadastrar{
+    margin-left: 50px;
+    width: 90%;
+    color: white;
+    height: 100%;
+}
+.cad{
+    margin-left: 170px;
+}
+input{
+    width: 55%;
+    height: 40px;
+    margin-bottom: 1px;
+    font-weight: 500;
+    font-size: 1.1em;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+.btncad{
+    width: 55.3%;
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+}
+.btncad:hover{
+    background-color: rgba(255,255,255,0.8);
+}
