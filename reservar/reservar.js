@@ -1,6 +1,6 @@
 function fazerReserva(url, reservas){
 
-    console.log("Reservas = ", reservas)
+    //console.log("Reservas = ", reservas)
 
     let request = new XMLHttpRequest()
     request.open("POST", url, true)
@@ -9,11 +9,13 @@ function fazerReserva(url, reservas){
 
     request.onload = function() {
         console.log(this.responseText)
+        window.location.href = '../index.html'
     }
 
     return request.responseText
 
 }
+
 function submitReserva() {
     event.preventDefault()
     let url = "http://localhost:5000/reservas"
@@ -28,21 +30,24 @@ function submitReserva() {
     let tipo = document.getElementById("tipo").value
 
     //tipo lavagem
-    let tipolavagem = document.getElementById("tipolavagem").value
+    let niveldeservico = document.getElementById("niveldeservico").value
 
-    console.log(nome)
-    console.log(tipolavagem)
-
+    //inserindo na base de dados
     reservas = {
         "name": nome,
         "numero": numero,
         "email": email,
         "marca": marca,
+        "cor": cor,
         "tipo": tipo,
-        "tipolavagem": tipolavagem
+        "niveldeservico": niveldeservico
     }
 
+    let btnSubmit = document.getElementById("btnSubmit")
+
+    //confirmando o envio
     fazerReserva(url, reservas)
-
-
 }
+
+   
+

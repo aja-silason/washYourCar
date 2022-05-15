@@ -185,7 +185,7 @@ header .logo
   color: #03a9f4; 
 }
 
-@media (max-width: 991px)
+@media (max-width: 960px)
 {
   .showcase,
   .showcase header
@@ -194,10 +194,10 @@ header .logo
   }
   .text h2
   {
-    font-size: 3em;
+    font-size: 12pt;
   }
   .text h3
   {
-    font-size: 2em;
+    font-size: 1em;
   }
 }

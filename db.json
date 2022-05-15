@@ -5,8 +5,9 @@
       "numero": "944996909",
       "email": "ananiasjaimeaugusto@gmail.com",
       "marca": "Toyota",
-      "tipo": "Pessoal",
-      "tipolavagem": "Rápida",
+      "cor": "Outro",
+      "tipo": "Lavagem",
+      "niveldeservico": "Rápida",
       "id": 1
     },
     {
@@ -14,14 +15,55 @@
       "numero": "944996909",
       "email": "ajasilason@gmail.com",
       "marca": "Audi",
-      "tipo": "Pessoal",
-      "tipolavagem": "Aprofundada",
+      "cor": "Azul",
+      "tipo": "Lavagem",
+      "niveldeservico": "Aprofundada",
       "id": 2
+    },
+    {
+      "name": "Joaquim Casso",
+      "numero": "935555500",
+      "email": "joaquimcassoma2@gmail.com",
+      "marca": "Audi",
+      "cor": "Vermelho",
+      "tipo": "Lavagem",
+      "niveldeservico": "Aprofundada",
+      "id": 3
+    },
+    {
+      "name": "José Cassoma",
+      "numero": "9263548264",
+      "email": "josecassoma@gmail.com",
+      "marca": "Audi",
+      "cor": "Azul",
+      "tipo": "Manutênção",
+      "niveldeservico": "Aprofundada",
+      "id": 4
+    },
+    {
+      "name": "Alberto Cassoma",
+      "numero": "92335548",
+      "email": "alberticssoma@gmail.com",
+      "marca": "Toyota",
+      "cor": "Vermelho",
+      "tipo": "Lavagem",
+      "niveldeservico": "Normal",
+      "id": 5
+    },
+    {
+      "name": "Joana Vapor",
+      "numero": "9123432345",
+      "email": "joanavapor@gmail.com",
+      "marca": "Audi",
+      "cor": "Vermelho",
+      "tipo": "Manutênção",
+      "niveldeservico": "Normal",
+      "id": 6
     }
   ],
   "admin": [
     {
-      "nome": "leveoteucarrohoje",
+      "nome": "laveoteucarrohoje",
       "pass": "visite-nos",
       "id": 1
     }

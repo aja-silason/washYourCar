@@ -19,13 +19,17 @@
 
           <div class="toggle"></div>
         </header>
-        <video src="../_video/3.mp4" muted loop autoplay></video>
+        <br/>
+        <br/>
+        <br/>
+        <video src="../_video/5.mp4" muted loop autoplay></video>
         <div class="overlay"></div>
         <div class="text">
           <br/>
           <h2>Reserve com a Wash Your Car</h2> 
 
           <script src="./reservar.js"></script>
+          <script src="./select.js"></script>
           
           <form onsubmit="submitReserva()">
             <div class="res">
@@ -40,25 +44,35 @@
             <div class="res">
               <h4>Dados do veículo</h4>
               <p>Marca<span>*</span></p>
-              <input type="text" id="marca" name="marca  class="marca" placeholder="A marca do seu carro" required/>
+              <input type="text" id="marca" name="marca"  class="marca" placeholder="A marca do seu carro" required/>
+
               <p>Cor<span>*</span></p>
-              <input type="text" id="cor" name="cor  class="cor" placeholder="A cor do seu carro" required/>
-              <p>Tipo de carro<span>*</span></p>
-              <select name="tipo" class="tipo" id="tipo" name="tipo"  id="tipolavagem">
-                <option name="tipo">Pessoal</option>
-                <option name="tipo">Colectivo</option>
+
+              <select class="cor" id="cor" name="cor"  id="cor">
+                <option name="cor">Preto</option>
+                <option name="cor">Azul</option>
+                <option name="cor">Vermelho</option>
+                <option name="cor">Branco</option>
+                <option name="cor">Outro</option>
+
+              </select>
+
+              <p>Tipo de serviço<span>*</span></p>
+              <select class="tipo" id="tipo" name="tipo"  id="tipolavagem">
+                <option name="tipo">Lavagem</option>
+                <option name="tipo">Manutênção</option>
               </select>
             </div>
             <div class="res">
-              <h4>Tipo de Lavagem<span>*</span></h4>
-              <select name="tipolavagem" class="tipolavagem" id="tipolavagem">
-                <option name="tipolavagem">Rápida</option>
-                <option name="tipolavagem">Normal</option>
-                <option name="tipolavagem">Aprofundada</option>
+              <h4>Nível de servico<span>*</span></h4>
+              <select name="niveldeservico" class="niveldeservico" id="niveldeservico">
+                <option name="niveldeservico">Rápida</option>
+                <option name="niveldeservico">Normal</option>
+                <option name="niveldeservico">Aprofundada</option>
               </select>
             </div>
             <div class="esp">
-              <button type="submit"><a>Click e Reserve</a></button>
+              <button type="submit" id="btnSubmit"><a>Click e Reserve</a></button>
             </div>
 
         </form>

@@ -1,0 +1,28 @@
+.text{
+    padding-left: -90px;
+}
+.cardsServicos div{
+    margin: 0em;
+}
+
+@media (max-width: 960px) {
+    .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cardsServicos{
+        display: flex;
+        flex-direction: column;
+    }
+    .ser{
+        margin-top: 5em !important;
+        font-size: 12pt !important;
+    }
+    .cardsServicos div{
+        padding: 1em;
+        margin-top: -20px;
+        width: 100%;
+    }
+}
