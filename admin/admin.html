@@ -9,7 +9,8 @@
     
     <link rel="stylesheet" href="../_css/index.css">
     <link rel="stylesheet" href="../_css/stylecss.css">
-    <link rel="stylesheet" href="./reservar.css">
+    <link rel="stylesheet" href="./admin.css">
+
 
 </head>
 <body>
@@ -19,63 +20,20 @@
 
           <div class="toggle"></div>
         </header>
-        <br/>
-        <br/>
-        <br/>
+
         <video src="../_video/5.mp4" muted loop autoplay></video>
         <div class="overlay"></div>
         <div class="text">
-          <br/>
-          <h2>Reserve com a Wash Your Car</h2> 
-
-          <script src="./reservar.js"></script>
-          <script src="./select.js"></script>
           
-          <form onsubmit="submitReserva()">
-            <div class="res">
-              <h4>Dados do proprietário</h4>
-              <p>Nome completo <span>*</span></p>
-              <input type="text" id="nome" name="nome" class="nome" placeholder="Nome do proprietário" required/>
-              <p>Número telefonico<span>*</span></p>
-              <input type="number" class="number" id="numero" name="numero"  placeholder="O seu número telefónico" required/>
-              <p>Email<span>*</span></p>
-              <input type="email" id="email" name="email"  class="nome" placeholder="O seu email" required/>
-            </div>
-            <div class="res">
-              <h4>Dados do veículo</h4>
-              <p>Marca<span>*</span></p>
-              <input type="text" id="marca" name="marca"  class="marca" placeholder="A marca do seu carro" required/>
+          <h2>Admin</h2> 
 
-              <p>Cor<span>*</span></p>
-
-              <select class="cor" id="cor" name="cor"  id="cor">
-                <option name="cor">Preto</option>
-                <option name="cor">Azul</option>
-                <option name="cor">Vermelho</option>
-                <option name="cor">Branco</option>
-                <option name="cor">Outro</option>
-
-              </select>
-
-              <p>Tipo de serviço<span>*</span></p>
-              <select class="tipo" id="tipo" name="tipo"  id="tipolavagem">
-                <option name="tipo">Lavagem</option>
-                <option name="tipo">Manutênção</option>
-              </select>
-            </div>
-            <div class="res">
-              <h4>Nível de servico<span>*</span></h4>
-              <select name="niveldeservico" class="niveldeservico" id="niveldeservico">
-                <option name="niveldeservico">Rápida</option>
-                <option name="niveldeservico">Normal</option>
-                <option name="niveldeservico">Aprofundada</option>
-              </select>
-            </div>
-            <div class="esp">
-              <button type="submit" id="btnSubmit"><a>Click e Reserve</a></button>
-            </div>
-
-        </form>
+          <script src="./admin.js"></script>
+          
+          <div class="clas">
+            <p>Pedidos</p>
+            <table id="tabelas"></table>
+          </div>
+          
         </div>
         <ul class="social">
           <li><a href="#"><img src="../_imagens/_germano_icons/facebook.png"></a></li>
@@ -85,11 +43,9 @@
       </section>
       <div class="menu">
         <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="#">SERVIÇOS</a></li>
-          <li><a href="#">PRODUTOS</a></li>
-          <li><a href="#">SOBRE</a></li>
-          <li><a href="#">CONTRACTOS</a></li>
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="../servicos.html">NOSSOS SERVIÇOS</a></li>
+          <li><a href="../reservar/reservar.html">RESERVAR</a></li>
         </ul>
 
         <script>

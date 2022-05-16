@@ -1,0 +1,20 @@
+@media (max-width: 960px) {
+    .text{
+        display: flex;
+        flex-direction: column;
+    }
+    .cardsServicos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding: -100px;
+    }
+    .cardsServicos div{
+        margin: 0;
+    }
+    .lg{
+        display: none;
+    }
+}
