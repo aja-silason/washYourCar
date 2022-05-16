@@ -28,6 +28,19 @@ button a{
 }
 @media (max-width: 960px) {
     form{
-        width: 350px;
+        width: 100%;
+    }
+    form input,
+    form button{
+        width: 100%;
+    }
+    .res{
+        margin-top: 40px;
+    }
+    h2.log{
+        display: none;
+    }
+    button{
+        margin-bottom: 50px;
     }
 }

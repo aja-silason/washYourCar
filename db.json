@@ -60,12 +60,5 @@
       "niveldeservico": "Normal",
       "id": 6
     }
-  ],
-  "admin": [
-    {
-      "nome": "laveoteucarrohoje",
-      "pass": "visite-nos",
-      "id": 1
-    }
   ]
 }
