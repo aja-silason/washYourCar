@@ -1,0 +1,33 @@
+
+form{
+    width: 450px;
+}
+form input{
+    width: 100%;
+    padding: 0 10px;
+}
+form h4{
+    color: #fff;
+    margin-top: 2em;
+}
+span{
+    color: red;
+}
+form p{
+    margin-bottom: 5px !important;
+}
+button{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+button a{
+    border-radius: 3px;
+    width: 100%;
+    cursor: pointer;
+}
+@media (max-width: 960px) {
+    form{
+        width: 350px;
+    }
+}
