@@ -1,4 +1,51 @@
-table, td, tr{
+tr{
     padding: 1em;
-    border: 1px solid;   
+    border: 1px solid;
+}
+
+.cima, .cards{
+    background-color: rgb(214, 214, 214);
+    padding: 0 .5em;
+    width: 100%;
+    display: flex;
+    margin: .5em;
+    border-radius: 5px;
+}
+.cima p, .cards p{
+    width: 200px;
+    color: #000;
+    margin: .2em;
+    padding: -1px .2em;
+    border-right: 1px solid;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cima p.nome, .cards p.nome{
+    width: 150px !important;
+}
+
+.cima p.numero, .cards p.numero{
+    width: 150px !important;
+}
+.cima p.email, .cards p.email{
+    width: 350px !important;
+}
+.cima p.marca, .cards p.marca{
+    width: 100px !important;
+}
+.cima p.cor, .cards p.cor{
+    width: 100px !important;
+}
+.cima p.tipo, .cards p.tipo{
+    width: 120px !important;
+}
+.cima p.nivel, .cards p.nivel{
+    width: 150px !important;
+    border: none;
+}
+.cima p.id, .cards p.id{
+    width: 35px !important;
 }

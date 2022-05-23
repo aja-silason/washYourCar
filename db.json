@@ -59,6 +59,16 @@
       "tipo": "Manutênção",
       "niveldeservico": "Normal",
       "id": 6
+    },
+    {
+      "name": "Ananias Augusto",
+      "numero": "944996909",
+      "email": "ananiasjaimeaugusto@gmail.com",
+      "marca": "Audi",
+      "cor": "Branco",
+      "tipo": "Manutênção",
+      "niveldeservico": "Aprofundada",
+      "id": 7
     }
   ]
 }
