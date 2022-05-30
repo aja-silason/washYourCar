@@ -69,6 +69,16 @@
       "tipo": "Manutênção",
       "niveldeservico": "Aprofundada",
       "id": 7
+    },
+    {
+      "name": "Trade Senter",
+      "numero": "936137781",
+      "email": "tradesenter@gmail.com",
+      "marca": "Audi",
+      "cor": "Azul",
+      "tipo": "Lavagem",
+      "niveldeservico": "Aprofundada",
+      "id": 8
     }
   ]
 }
